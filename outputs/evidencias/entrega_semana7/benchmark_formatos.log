@@ -1,0 +1,21 @@
+=======================================================
+BENCHMARK: PARQUET VS CSV
+=======================================================
+Dataset: 316,622 filas x 40 columnas
+Tamaño Parquet: 6.06 MiB
+Lecturas Parquet: [0.048, 0.026, 0.027] s
+
+Tamaño CSV: 69.80 MiB
+Escritura CSV: 1.640 s
+Escritura Parquet: 0.121 s
+Lecturas CSV: [0.592, 0.566, 0.566] s
+
+RESUMEN
+Mediana lectura Parquet: 0.027 s
+Mediana lectura CSV: 0.566 s
+Relación de tamaño CSV/Parquet: 11.52x
+Ahorro de espacio con Parquet: 91.3%
+
+Los archivos temporales se eliminarán automáticamente.
+
+Benchmark terminado.

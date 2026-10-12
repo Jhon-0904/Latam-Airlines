@@ -1,0 +1,17 @@
+{
+  "periodo_prueba": "2026-01",
+  "filas_entrenamiento": 165941,
+  "filas_prueba": 150097,
+  "mae_minutos": 21.5186,
+  "rmse_minutos": 49.8488,
+  "r2": 0.0106,
+  "accuracy_alerta": 0.588,
+  "precision_alerta": 0.286,
+  "recall_alerta": 0.6235,
+  "f1_alerta": 0.3921,
+  "tn": 68312,
+  "fp": 49794,
+  "fn": 12044,
+  "tp": 19947,
+  "umbral_alerta_minutos": 15
+}

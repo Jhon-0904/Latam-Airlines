@@ -1,0 +1,4 @@
+factor,filas_procesadas,tamano_mb,tiempo_lectura_seg,filas_por_seg,memoria_rss_final_mb,demoras_ge_15
+1,316622,6.06,0.008,38423834,360.0,
+10,3166220,72.18,0.052,60509016,658.7,
+100,31662200,721.7,0.471,67209430,890.0,

@@ -1,0 +1,4 @@
+factor,filas,demoras_15_o_mas,tasa_demora_pct,tiempo_lectura_seg
+1,316622,77398,24.44,0.122
+10,3166220,773980,24.44,0.006
+100,31662200,7739800,24.44,0.053
