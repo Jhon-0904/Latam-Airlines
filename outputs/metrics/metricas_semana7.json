@@ -14,7 +14,7 @@
     "demora_promedio_total": 17.27,
     "demora_mediana_total": 0.0,
     "demora_promedio_demorados_15": 65.86,
-    "ram_gb_fin_integracion": 1.6
+    "ram_gb_fin_integracion": 2.539
   },
   "modelo": {
     "periodo_entrenamiento": "2025-12",
@@ -72,7 +72,7 @@
       "FN": 12044,
       "TP": 19947
     },
-    "segundos_entrenamiento_modelo": 3.62,
-    "ram_gb_fin_modelado": 2.694
+    "segundos_entrenamiento_modelo": 3.68,
+    "ram_gb_fin_modelado": 3.577
   }
 }

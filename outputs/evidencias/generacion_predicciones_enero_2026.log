@@ -1,0 +1,40 @@
+Filas de entrenamiento: 165,941
+Filas de prueba: 150,097
+Entrenando modelo...
+
+MÉTRICAS DE ESTA EJECUCIÓN
+{
+  "periodo_prueba": "2026-01",
+  "filas_entrenamiento": 165941,
+  "filas_prueba": 150097,
+  "mae_minutos": 21.5186,
+  "rmse_minutos": 49.8488,
+  "r2": 0.0106,
+  "accuracy_alerta": 0.588,
+  "precision_alerta": 0.286,
+  "recall_alerta": 0.6235,
+  "f1_alerta": 0.3921,
+  "tn": 68312,
+  "fp": 49794,
+  "fn": 12044,
+  "tp": 19947,
+  "umbral_alerta_minutos": 15
+}
+
+Archivos generados:
+outputs/metrics/predicciones_vuelos_enero_2026.csv
+outputs/metrics/metricas_predicciones_enero_2026.json
+outputs/metrics/matriz_confusion_enero_2026.csv
+
+Muestra de predicciones:
+FlightDate Reporting_Airline Origin Dest  CRSDepTime  dep_delay_minutes  delay_15  weather_age_minutes  predicted_delay_minutes  predicted_alert_15min        alert_result
+2026-01-01                F9    DEN  ATL          14               43.0         1                 21.0                     6.84                      0 demora no detectada
+2026-01-01                UA    DEN  IAH         500                0.0         0                  7.0                     6.14                      0  verdadero negativo
+2026-01-01                AA    DEN  DFW         500                0.0         0                  7.0                    10.32                      0  verdadero negativo
+2026-01-01                UA    DEN  FLL         500                0.0         0                  7.0                     7.35                      0  verdadero negativo
+2026-01-01                UA    DEN  SFO         545                0.0         0                 52.0                     8.49                      0  verdadero negativo
+2026-01-01                DL    DEN  ATL         545                0.0         0                 52.0                     8.81                      0  verdadero negativo
+2026-01-01                UA    DEN  ORD         600                0.0         0                  0.0                     3.15                      0  verdadero negativo
+2026-01-01                F9    DEN  CLE         600                0.0         0                  0.0                     5.57                      0  verdadero negativo
+2026-01-01                F9    DEN  LAX         600                0.0         0                  0.0                     5.35                      0  verdadero negativo
+2026-01-01                AA    DEN  MIA         600               13.0         0                  0.0                    14.42                      0  verdadero negativo

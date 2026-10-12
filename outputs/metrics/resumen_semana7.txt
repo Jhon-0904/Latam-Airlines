@@ -16,7 +16,7 @@ tasa_demora_15_total: 24.44
 demora_promedio_total: 17.27
 demora_mediana_total: 0.0
 demora_promedio_demorados_15: 65.86
-ram_gb_fin_integracion: 1.6
+ram_gb_fin_integracion: 2.539
 
 MODELO BASE
 Entrenamiento: 2025-12 | filas: 165941
@@ -26,7 +26,7 @@ Referencia mediana regresion: {'MAE': 15.259, 'RMSE': 52.386, 'R2': -0.0927}
 Modelo base regresion: {'MAE': 21.519, 'RMSE': 49.849, 'R2': 0.0106}
 Referencia mediana alerta >=15: {'Accuracy': 0.7869, 'Precision': 0.0, 'Recall': 0.0, 'F1': 0.0, 'TN': 118106, 'FP': 0, 'FN': 31991, 'TP': 0}
 Modelo base alerta >=15: {'Accuracy': 0.588, 'Precision': 0.286, 'Recall': 0.6235, 'F1': 0.3921, 'TN': 68312, 'FP': 49794, 'FN': 12044, 'TP': 19947}
-Tiempo entrenamiento modelo: 3.62 segundos
+Tiempo entrenamiento modelo: 3.68 segundos
 
 ARCHIVOS GENERADOS
 datos/processed/integrated/dataset_integrado_semana7.parquet

@@ -13,3 +13,6 @@ datos/raw/noaa/procesados/*.psv
 
 # Logs temporales
 *.tmp
+
+# Predicciones completas: conservar localmente
+outputs/metrics/predicciones_vuelos_enero_2026.csv
