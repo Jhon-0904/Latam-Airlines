@@ -1,37 +1,46 @@
-# Declaración de uso de inteligencia artificial generativa
+# Declaración de Uso de Inteligencia Artificial Generativa
 
-**Proyecto:** Prototipo de alerta temprana de demoras de vuelos  
-**Asignatura:** Big Data y Analítica de Datos  
-**Periodo académico:** 2026-II  
-**Fecha:** ____ / ____ / ______
+* **Proyecto:** Prototipo de alerta temprana de demoras de vuelos
+* **Asignatura:** Big Data y Analítica de Datos
+* **Periodo académico:** 2026-II
+* **Fecha:** 11/10/2026
+
+---
 
 ## 1. Herramientas utilizadas
 
-Durante el desarrollo del proyecto se utilizó ChatGPT como herramienta de apoyo para resolver dudas técnicas, orientar la organización de tareas, revisar instrucciones de ejecución y apoyar la elaboración y mejora de la documentación.
+Durante el desarrollo del proyecto se utilizó **ChatGPT (OpenAI)** como herramienta de consulta y apoyo técnico en situaciones puntuales. Su uso estuvo orientado principalmente a resolver dudas, comprender determinados conceptos, recibir orientación ante errores de ejecución y mejorar algunos aspectos de la documentación.
+
+La inteligencia artificial no se utilizó como sustituto del trabajo del estudiante, sino como un recurso complementario para facilitar la resolución de dificultades y reforzar la comprensión de los procedimientos aplicados.
+
+---
 
 ## 2. Actividades en las que se utilizó IA
 
-El apoyo de inteligencia artificial se utilizó en las siguientes actividades, según correspondiera al trabajo efectivamente realizado:
+El apoyo de inteligencia artificial se utilizó de manera puntual en actividades como las siguientes, de acuerdo con el trabajo efectivamente realizado:
 
-- Orientación para configurar el entorno de desarrollo y ejecutar comandos.
-- Apoyo en la revisión y depuración de errores técnicos.
-- Organización de la documentación del proyecto, incluyendo el README, la arquitectura y las fichas de procedencia de datos.
-- Interpretación de métricas y apoyo para explicar los resultados obtenidos.
+* Consulta de comandos y orientación para configurar el entorno de desarrollo.
+* Apoyo en la identificación de posibles causas de errores durante la ejecución de los programas.
+* Aclaración de conceptos relacionados con el procesamiento y análisis de datos.
+* Revisión de la redacción y organización de algunas secciones de la documentación técnica.
+* Orientación para comprender determinadas métricas y explicar los resultados obtenidos.
+
+Las respuestas y sugerencias proporcionadas por la herramienta fueron evaluadas por el estudiante según las necesidades del proyecto. Su contenido no se consideró automáticamente correcto ni se tomó como sustituto de la ejecución de los programas, la revisión de los datos o el análisis de los resultados.
+
+---
 
 ## 3. Responsabilidad académica
 
-Los integrantes del equipo declaran que revisarán el contenido y los resultados entregados, verificarán que las afirmaciones estén respaldadas por evidencias y asumirán la responsabilidad por el trabajo presentado. El uso de IA no reemplaza la validación de los datos, la ejecución de los programas ni la comprensión de los resultados.
+El desarrollo del proyecto requirió la participación activa del estudiante en la configuración del entorno, la organización y el procesamiento de los datos, la ejecución de los scripts y la revisión de los resultados. Las decisiones técnicas y las conclusiones presentadas deben sustentarse en las evidencias obtenidas durante la implementación.
 
-Esta declaración describe el uso de IA que debe ser confirmado por los integrantes antes de firmar. Cualquier actividad que no se haya realizado deberá eliminarse o corregirse.
+Los integrantes del equipo asumen la responsabilidad por el contenido entregado y se comprometen a verificar la exactitud de la información, comprender los procedimientos aplicados y corregir cualquier error identificado. El uso de inteligencia artificial no reemplaza el razonamiento crítico, la validación de los resultados ni la responsabilidad académica.
+
+> **Declaración final:** Los firmantes manifiestan haber leído y revisado esta declaración, estar de acuerdo con su contenido y confirmar que describe de manera transparente el uso de inteligencia artificial generativa durante el desarrollo del proyecto académico.
+
+---
 
 ## 4. Integrantes y firmas
 
-| N.º | Apellidos y nombres | Firma |
-|---|---|---|
-| 1 | __________________________________ | __________________ |
-| 2 | __________________________________ | __________________ |
-| 3 | __________________________________ | __________________ |
-| 4 | __________________________________ | __________________ |
-| 5 | __________________________________ | __________________ |
-
-**Declaración final:** Los firmantes manifiestan haber leído esta declaración y estar de acuerdo con su contenido, una vez revisado y corregido según el trabajo realmente realizado.
+| N.º | Apellidos y nombres | Código universitario | Firma |
+| :---: | :--- | :---: | :--- |
+| 1 | Maximiliano Villanueva Jhon Denis | 000274195 | __________________________ |
