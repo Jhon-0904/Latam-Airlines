@@ -22,7 +22,7 @@ Se integran registros de puntualidad de vuelos del Bureau of Transportation Stat
 
 Periodo analizado: diciembre de 2025 y enero de 2026.
 
-Las fuentes, los archivos utilizados, las transformaciones y sus limitaciones se documentan en `documentacion/fichas_procedencia_datos.md`.
+El inventario de archivos, tamaños y hashes SHA-256 está en `outputs/evidencias/entrega_semana7/ficha_procedencia_datos.csv`. Las fechas de descarga no registradas y las condiciones de uso pendientes de verificación deben declararse como limitaciones.
 
 ## 4. Tecnologías
 
@@ -99,7 +99,7 @@ Los resultados pueden variar si cambian los datos, el entorno o las versiones de
 
 - Métricas y resultados: `outputs/metrics/`
 - Gráficos exploratorios: `outputs/figures/`
-- Ficha de procedencia: `documentacion/fichas_procedencia_datos.md`
+- Ficha de procedencia: `outputs/evidencias/entrega_semana7/ficha_procedencia_datos.csv`
 - Arquitectura: `documentacion/arquitectura.md`
 - Comparación Parquet y CSV: `outputs/metrics/benchmark_formatos.log`
 - Prueba de escalabilidad: `outputs/metrics/prueba_escalabilidad_semana7.csv`
