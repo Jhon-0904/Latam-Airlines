@@ -1,0 +1,4 @@
+factor,filas_logicas_procesadas,lecturas_dataset,tiempo_segundos,memoria_proceso_gb_fin,tasa_demora_15,demora_promedio,clima_t_2h,metodo
+1,316622,1,0.003,0.119,24.44,17.27,99.82,lectura_parquet_y_agregacion_repetida
+10,3166220,10,0.022,0.265,24.44,17.27,99.82,lectura_parquet_y_agregacion_repetida
+100,31662200,100,0.186,0.703,24.44,17.27,99.82,lectura_parquet_y_agregacion_repetida

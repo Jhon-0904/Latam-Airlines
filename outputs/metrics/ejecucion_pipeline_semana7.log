@@ -1,0 +1,72 @@
+================================================================================
+PIPELINE SEMANA 7 - INTEGRACION BTS + NOAA/GHCNh
+================================================================================
+RAM inicial del proceso: 0.172 GB
+Leyendo BTS: vuelos_2025_12.zip -> On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_12.csv
+Leyendo BTS: vuelos_2026_1.zip -> On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2026_1.csv
+BTS total: 1126307
+BTS aeropuertos seleccionados antes de limpieza: 326448
+Cancelados excluidos: 9027
+Desviados excluidos: 799
+Duplicados excluidos: 0
+Vuelos elegibles BTS: 316622
+RAM luego de BTS: 2.38 GB
+Convirtiendo hora local programada a UTC y creando alerta T-2h...
+Leyendo NOAA/GHCNh: GHCNh_USW00003017_2025-12_2026-01.psv
+Leyendo NOAA/GHCNh: GHCNh_USW00003927_2025-12_2026-01.psv
+Leyendo NOAA/GHCNh: GHCNh_USW00012815_2025-12_2026-01.psv
+Leyendo NOAA/GHCNh: GHCNh_USW00013874_2025-12_2026-01.psv
+Leyendo NOAA/GHCNh: GHCNh_USW00013881_2025-12_2026-01.psv
+Leyendo NOAA/GHCNh: GHCNh_USW00023169_2025-12_2026-01.psv
+Leyendo NOAA/GHCNh: GHCNh_USW00023174_2025-12_2026-01.psv
+Leyendo NOAA/GHCNh: GHCNh_USW00023183_2025-12_2026-01.psv
+Leyendo NOAA/GHCNh: GHCNh_USW00024233_2025-12_2026-01.psv
+Observaciones NOAA/GHCNh cargadas: 79127
+RAM luego de NOAA: 1.259 GB
+Integrando vuelos con la última observación meteorológica disponible antes de la alerta...
+Dataset integrado guardado: datos/processed/integrated/dataset_integrado_semana7.parquet
+Muestra CSV guardada: datos/processed/integrated/dataset_integrado_muestra_5000.csv
+Filas dataset integrado: 316622
+Columnas dataset integrado: 40
+Entrenando modelo base con diciembre 2025 y evaluando en enero 2026...
+
+================================================================================
+RESULTADOS FINALES SEMANA 7
+================================================================================
+CALIDAD E INTEGRACION
+bts_total_registros: 1126307
+bts_aeropuertos_seleccionados: 326448
+cancelados_excluidos: 9027
+desviados_excluidos: 799
+duplicados_excluidos: 0
+vuelos_elegibles_integrados: 316622
+vuelos_con_clima_t_2h: 316038
+porcentaje_con_clima_t_2h: 99.82
+vuelos_con_clima_core_completo: 110784
+porcentaje_con_clima_core_completo: 34.99
+tasa_demora_15_total: 24.44
+demora_promedio_total: 17.27
+demora_mediana_total: 0.0
+demora_promedio_demorados_15: 65.86
+ram_gb_fin_integracion: 1.6
+
+MODELO BASE
+Entrenamiento: 2025-12 | filas: 165941
+Prueba: 2026-01 | filas: 150097
+Referencia mediana entrenamiento: 0.0 minutos
+Referencia mediana regresion: {'MAE': 15.259, 'RMSE': 52.386, 'R2': -0.0927}
+Modelo base regresion: {'MAE': 21.519, 'RMSE': 49.849, 'R2': 0.0106}
+Referencia mediana alerta >=15: {'Accuracy': 0.7869, 'Precision': 0.0, 'Recall': 0.0, 'F1': 0.0, 'TN': 118106, 'FP': 0, 'FN': 31991, 'TP': 0}
+Modelo base alerta >=15: {'Accuracy': 0.588, 'Precision': 0.286, 'Recall': 0.6235, 'F1': 0.3921, 'TN': 68312, 'FP': 49794, 'FN': 12044, 'TP': 19947}
+Tiempo entrenamiento modelo: 3.62 segundos
+
+ARCHIVOS GENERADOS
+datos/processed/integrated/dataset_integrado_semana7.parquet
+datos/processed/integrated/dataset_integrado_muestra_5000.csv
+outputs/metrics/metricas_semana7.json
+outputs/metrics/calidad_por_aeropuerto.csv
+outputs/figures/figura_1_demora_por_aeropuerto.png
+outputs/figures/figura_2_demora_por_hora.png
+outputs/figures/figura_3_demora_por_visibilidad.png
+Tiempo total del pipeline: 34.87 segundos
+RAM final del proceso: 2.694 GB

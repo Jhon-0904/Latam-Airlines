@@ -1,0 +1,15 @@
+# Entorno y archivos temporales
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.bak
+
+# Datos originales descargados
+datos/raw/bts/*.zip
+datos/raw/bts/extraidos/
+datos/raw/noaa/estaciones/
+datos/raw/noaa/procesados/*.psv
+
+# Logs temporales
+*.tmp

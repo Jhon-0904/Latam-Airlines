@@ -1,0 +1,4 @@
+factor,filas_procesadas,tiempo_segundos,memoria_proceso_gb_fin,memoria_incremental_gb,tasa_demora_15,demora_promedio,clima_t_2h
+1,316622,0.02,0.443,0.107,24.44,17.27,99.82
+10,3166220,0.42,1.855,1.413,24.44,17.27,99.82
+100,31662200,4.82,4.025,2.151,24.44,17.27,99.82

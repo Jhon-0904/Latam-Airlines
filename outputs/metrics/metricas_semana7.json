@@ -1,0 +1,78 @@
+{
+  "calidad_integracion": {
+    "bts_total_registros": 1126307,
+    "bts_aeropuertos_seleccionados": 326448,
+    "cancelados_excluidos": 9027,
+    "desviados_excluidos": 799,
+    "duplicados_excluidos": 0,
+    "vuelos_elegibles_integrados": 316622,
+    "vuelos_con_clima_t_2h": 316038,
+    "porcentaje_con_clima_t_2h": 99.82,
+    "vuelos_con_clima_core_completo": 110784,
+    "porcentaje_con_clima_core_completo": 34.99,
+    "tasa_demora_15_total": 24.44,
+    "demora_promedio_total": 17.27,
+    "demora_mediana_total": 0.0,
+    "demora_promedio_demorados_15": 65.86,
+    "ram_gb_fin_integracion": 1.6
+  },
+  "modelo": {
+    "periodo_entrenamiento": "2025-12",
+    "periodo_prueba": "2026-01",
+    "filas_train": 165941,
+    "filas_test": 150097,
+    "features_numericas": [
+      "DayOfWeek",
+      "dep_hour_local",
+      "is_weekend",
+      "Distance",
+      "temperature",
+      "dew_point",
+      "relative_humidity",
+      "wind_speed",
+      "wind_direction",
+      "visibility",
+      "pressure_for_model",
+      "weather_age_minutes"
+    ],
+    "features_categoricas": [
+      "Reporting_Airline",
+      "Origin",
+      "Dest"
+    ],
+    "mediana_entrenamiento_minutos": 0.0,
+    "referencia_mediana_regresion": {
+      "MAE": 15.259,
+      "RMSE": 52.386,
+      "R2": -0.0927
+    },
+    "modelo_base": "HistGradientBoostingRegressor",
+    "modelo_base_regresion": {
+      "MAE": 21.519,
+      "RMSE": 49.849,
+      "R2": 0.0106
+    },
+    "referencia_mediana_alerta_15": {
+      "Accuracy": 0.7869,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0,
+      "TN": 118106,
+      "FP": 0,
+      "FN": 31991,
+      "TP": 0
+    },
+    "modelo_base_alerta_15": {
+      "Accuracy": 0.588,
+      "Precision": 0.286,
+      "Recall": 0.6235,
+      "F1": 0.3921,
+      "TN": 68312,
+      "FP": 49794,
+      "FN": 12044,
+      "TP": 19947
+    },
+    "segundos_entrenamiento_modelo": 3.62,
+    "ram_gb_fin_modelado": 2.694
+  }
+}
